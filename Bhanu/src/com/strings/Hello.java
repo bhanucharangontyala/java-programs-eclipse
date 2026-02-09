@@ -3,7 +3,9 @@ package com.strings;
 public class Hello {
 
 	public static void main(String[] args) {
-		System.out.println("HEllo World");
+		int a = 10;
+		int b = 20;
+		System.out.println(a + b);
 	}
 
 }
