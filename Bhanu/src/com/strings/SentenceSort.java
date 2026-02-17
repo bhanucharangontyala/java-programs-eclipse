@@ -5,16 +5,21 @@ public class SentenceSort {
 	public static void main(String[] args) {
 		String str = "am2 I1 to4 going3 town6 Home5";
 		String[] res = str.split(" ");
+//		for (int i = 0; i < res.length; i++) {
+//			for (int j = 0; j < res.length; j++) {
+//				int k1 = res[i].length() - 1;
+//				int k2 = res[j].length() - 1;
+//				if (res[i].charAt(k1) < res[j].charAt(k2)) {
+//					String temp = res[i];
+//					res[i] = res[j];
+//					res[j] = temp;
+//				}
+//			}
+//		}
+
 		for (int i = 0; i < res.length; i++) {
-			for (int j = 0; j < res.length; j++) {
-				int k1 = res[i].length() - 1;
-				int k2 = res[j].length() - 1;
-				if (res[i].charAt(k1) < res[j].charAt(k2)) {
-					String temp = res[i];
-					res[i] = res[j];
-					res[j] = temp;
-				}
-			}
+			int n = res[i].length() - 1;
+			res[res[i].charAt(n)] = res[i];
 		}
 
 //		for (String r : res) {
