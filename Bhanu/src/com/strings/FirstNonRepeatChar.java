@@ -11,7 +11,7 @@ public class FirstNonRepeatChar {
 		int[] arr = new int[127];
 
 		for (int i = 0; i < str.length(); i++) {
-			arr[str.charAt(i)] = arr[str.charAt(i)] + 1;
+			arr[str.charAt(i)] +=  1;
 		}
 
 		for (int i = 0; i < str.length(); i++) {

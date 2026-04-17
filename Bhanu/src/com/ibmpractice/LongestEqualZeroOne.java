@@ -10,6 +10,7 @@ public class LongestEqualZeroOne {
 		int maxLen = 0;
 		for (int i = 0; i < arr.length; i++) {
 			// Convert 0 to -1 and 1 to +1
+			System.out.println(map);
 			sum += (arr[i] == 0) ? -1 : 1;
 			// If sum becomes 0, subarray from 0 to i has equal 0s and 1s
 			if (sum == 0) {

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SumofNum {
 
-	int sumOfNum(int n) {
+	static int sumOfNum(int n) {
 		int sum = 0;
 		int r = 0;
 		while (n != 0) {
@@ -15,7 +15,7 @@ public class SumofNum {
 		return sum;
 	}
 
-	void main(String[] args) {
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a Number :");
 		int n = sc.nextInt();

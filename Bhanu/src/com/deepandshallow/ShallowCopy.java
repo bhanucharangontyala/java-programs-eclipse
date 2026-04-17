@@ -30,11 +30,11 @@ class Address {
 }
 
 public class ShallowCopy {
-	// - Shallow copy is used when we required when we want to reflect the changes 
-	//   to all when we update a value to one member
-	// - in this the object data is sharable in between the classes 
-	// - Shallow copy creates a new object, but it copies only references of nested
-	//   objects, not the actual nested objects.
+//	 - Shallow copy is used when we required when we want to reflect the changes 
+//	   to all when we update a value to one member
+//	 - in this the object data is sharable in between the classes 
+//	 - Shallow copy creates a new object, but it copies only references of nested
+//	   objects, not the actual nested objects.
 
 	public static void main(String[] args) throws CloneNotSupportedException{
 		Address ad = new Address("Hyderabad", 500072);

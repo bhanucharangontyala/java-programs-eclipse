@@ -27,7 +27,6 @@ public class LongestIncSubSequence {
 					rightGreater++;
 				}
 			}
-
 			res += (leftSmaller * rightGreater);
 		}
 		System.out.println("No of Longest Increasing Sub Sequence :" + res);

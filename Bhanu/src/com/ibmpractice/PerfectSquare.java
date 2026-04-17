@@ -22,6 +22,7 @@ public class PerfectSquare {
 				}
 				n -= odd;
 				odd += 2;
+				System.out.println(n + " " + odd);
 			}
 		}
 		sc.close();
