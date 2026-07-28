@@ -63,11 +63,6 @@ public class InsertionSort {
 				j--;
 			}
 			arr[j+1]=key;
-			System.out.println();
-			System.out.println("step :"+i);
-			for(int a: arr) {
-				System.out.print(a + " ");
-			}
 		}
 		System.out.println();
 		System.out.println("After Sorting");
